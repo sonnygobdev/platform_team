@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apik8s-config
+data:
+   apik8s-env: Development
+   title: "apik8s deployed from minikube kubernetes"
+   dburl: mongo-service
